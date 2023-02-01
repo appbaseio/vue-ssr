@@ -1,3 +1,5 @@
+import { esbuildCommonjs } from '@originjs/vite-plugin-commonjs'
+
 export default defineNuxtConfig({
 	telemetry: false,
 	build: {
@@ -12,11 +14,17 @@ export default defineNuxtConfig({
 				'@appbaseio/reactivesearch-vue',
 				'fast-deep-equal',
 			],
+			esbuildOptions:{
+				plugins:[
+				  esbuildCommonjs(['@appbaseio/reactivesearch-vue'])
+				]
+			  }
 		},
 		build: {
 			commonjsOptions: {
 				include: [/reactivecore/, /reactivesearch/, /node_modules/],
 			},
 		},
+		
 	},
 });
