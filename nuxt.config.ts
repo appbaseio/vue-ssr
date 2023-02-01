@@ -1,4 +1,3 @@
-
 export default defineNuxtConfig({
 	telemetry: false,
 	build: {
@@ -19,6 +18,5 @@ export default defineNuxtConfig({
 				include: [/reactivecore/, /reactivesearch/, /node_modules/],
 			},
 		},
-		
 	},
 });

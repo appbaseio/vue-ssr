@@ -22,8 +22,8 @@ export default defineNuxtComponent({
 			};
 		} catch (e) {
 			console.error('error', e);
+			return { error: e };
 		}
-		return {};
 	},
 });
 </script>
