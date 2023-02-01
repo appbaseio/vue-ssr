@@ -28,10 +28,10 @@
     redux "^4.0.0"
     redux-thunk "^2.3.0"
 
-"@appbaseio/reactivesearch-vue@3.0.0-alpha.5":
-  version "3.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@appbaseio/reactivesearch-vue/-/reactivesearch-vue-3.0.0-alpha.5.tgz#13c2a0b3147a7af4cfd23c9fd6b3e4b529c0352d"
-  integrity sha512-cMAsXOPMYFUrkaCTy6iYsH2DLmJXD3kq2wUJ9TJRLuv/OCAXgtWsrCXwbasbfpsq4vud/6zH8bPtvMj+4dJnyQ==
+"@appbaseio/reactivesearch-vue@3.0.0-alpha.6":
+  version "3.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@appbaseio/reactivesearch-vue/-/reactivesearch-vue-3.0.0-alpha.6.tgz#b2ebcc8200fe5f8b169dc9ddcd5c93d237d3a281"
+  integrity sha512-nnuTvLK7x5lUg4Xhv9Z7q3/s/q41D29cp3uuQLYdPX8rUZWpLKjZhXjRii+fFHkA4+qdYgbWGA/OBETeafYwNQ==
   dependencies:
     "@appbaseio/analytics" "^1.1.1"
     "@appbaseio/reactivecore" "10.0.0-alpha.2"
