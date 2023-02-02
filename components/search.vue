@@ -24,6 +24,7 @@
 					placeholder="Search by books names"
 					icon-position="left"
 					class-name="search"
+					:debounce="250"
 				/>
 			</nav>
 			<div class="row">
